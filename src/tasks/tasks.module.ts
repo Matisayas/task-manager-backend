@@ -6,4 +6,3 @@ import { TasksService } from './tasks.service';
   providers: [TasksService],
 })
 export class TasksModule {}
-export class TaskStatus{}
