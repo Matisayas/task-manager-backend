@@ -3,7 +3,6 @@ import { v4 as uuid } from 'uuid';
 import { CreateTaskDto } from './dto/create-task.dto';
 import { GetTasksFilterDto } from './dto/get-tasks-filter.dto';
 import { Task, TaskStatus } from './task.model';
-
 @Injectable()
 export class TasksService {
   private tasks: Task[] = [];
