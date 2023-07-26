@@ -15,3 +15,4 @@ export class Task {
   @Column()
   description: string;
 }
+export { TaskStatus };
