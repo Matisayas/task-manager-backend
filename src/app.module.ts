@@ -8,9 +8,11 @@ import { TasksModule } from './tasks/tasks.module';
       type: 'postgres',
       host: 'localhost',
       username: 'postgres',
+      port: 5432,
       password: 'postgres',
       database: 'task-management',
       autoLoadEntities: true,
+      synchronize: true,
     }),
   ],
 })
